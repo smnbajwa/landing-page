@@ -1,0 +1,74 @@
+/* Overall styling */
+
+* {
+    /*border: 2px solid red;*/
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header,
+.subheader {
+    max-width: 1000px;
+}
+
+/* Section by section styling */
+/* Section zero start */
+
+.section-zero {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.right-links,
+.subtext {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+.subheader {
+    display:flex;
+    justify-content: space-between;
+}
+
+.welcome-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+
+/* Section zero end */
+
+.section-one {
+    background-color: #F9FAF8;
+}
+
+.section-two {
+    background-color: #E5E7EB;
+}
+
+.section-three {
+    background-color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+}
